@@ -137,3 +137,24 @@ footer {
         padding: 20px 10px;
     }
 }
+.contato-simples {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.icones-contato {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icones-contato a img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+.icones-contato a img:hover {
+    transform: scale(1.2);
+}
