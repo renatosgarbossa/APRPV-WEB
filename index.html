@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRPV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logo da APRPV" class="logo">
+        <h1>Associação dos Produtores Rurais do Parque Verde</h1>
+        <nav>
+            <a href="#fotos">Fotos</a>
+            <a href="#videos">Vídeos</a>
+            <a href="#costelao">Costelão</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="fotos">
+        <h2>Fotos</h2>
+        <div class="galeria">
+            <img src="fotos/foto1.jpg" alt="Descrição da foto 1">
+            <img src="fotos/foto2.jpg" alt="Descrição da foto 2">
+            <img src="fotos/foto3.jpg" alt="Descrição da foto 3">
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>Vídeos</h2>
+        <div class="galeria">
+            <video controls src="videos/video1.mp4"></video>
+            <video controls src="videos/video2.mp4"></video>
+        </div>
+    </section>
+
+    <section id="costelao">
+        <h2>33ª Festa do Costelão</h2>
+        <div class="evento">
+            <img src="imagens/costelao.jpg" alt="Cartão da festa do Costelão">
+            <p><strong>Data:</strong> 04 de Maio de 2025</p>
+            <p><strong>Local:</strong> Linha Gonçalves Dias - Santa Tereza do Oeste/PR</p>
+            <p><strong>Horário:</strong> A partir das 12h</p>
+            <p><strong>Animação:</strong> G. Fandangaço</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>
+            WhatsApp (Nelson Presidente):
+            <a href="https://wa.me/554599747323" target="_blank" style="color: #25D366; text-decoration: none;">Clique Aqui</a>
+        </p>
+        <p>
+            Email:
+            <a href="mailto:aprpv.sto.1992@gmail.com" style="color: #333; text-decoration: none;">Clique Aqui</a>
+        </p>
+        <form id="form-contato">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" placeholder="Seu email" required>
+            <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2025 APRPV - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
